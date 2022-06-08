@@ -9,6 +9,7 @@
 
 h1{
     font-size: 45px;
+    color: aliceblue;
 }
 
 .ipts{
@@ -34,8 +35,8 @@ h1{
 .ipts button{
     width: 100%;
     height: 42px;
-    margin: 5px 0;
-    background-color: #357aff;
+    margin: 10px 0;
+    background-color: rgb(85, 112, 35);
     border: none;
     border-radius: 5px;
     font-size: 20px;
@@ -43,6 +44,12 @@ h1{
     color: aliceblue;
 }
 
+.ipts button:hover{
+    box-shadow: 0 0 1em rgb(137, 189, 42);
+    transition: box-shadow .3s;
+}
+
 h2{
     margin: 20px 0;
+    color: aliceblue;
 }
